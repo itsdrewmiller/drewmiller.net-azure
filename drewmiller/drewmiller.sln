@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{414721A2-9B74-4697-86ED-4A56EAFCFEFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6738816A-83CA-4E80-AE4E-2DF06A94D385}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "drewmiller", "src\drewmiller\drewmiller.xproj", "{92C5F0C8-5906-4C9A-9DFF-F3B7D8DDB13A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92C5F0C8-5906-4C9A-9DFF-F3B7D8DDB13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C5F0C8-5906-4C9A-9DFF-F3B7D8DDB13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C5F0C8-5906-4C9A-9DFF-F3B7D8DDB13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C5F0C8-5906-4C9A-9DFF-F3B7D8DDB13A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92C5F0C8-5906-4C9A-9DFF-F3B7D8DDB13A} = {414721A2-9B74-4697-86ED-4A56EAFCFEFE}
+	EndGlobalSection
+EndGlobal
